@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Maqueta portafolio</title>
+  </head>
+
+  <body>
+    <div id="body">
+        <div id="contenido">
+            <div id="Home">
+                <div class="container header" style="background-image: url(img/bg.png);">
+
+                  <div class="row">
+                    <div class="col text-center"><img class="foto-de-presentacion" src="img/F1.png"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col text-center"><h2>Flores Fernando Marcelo <br>Tecnico electromecanico</h2></div>
+                  </div>
+
+                  <div class="row">
+                    <nav class="navbar navbar-expand-lg bg-light">
+                      <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#body">Home</a>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#estudios">Estudios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Proyectos</a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Steno Keyboard</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Robot qooper</a></li>
+                              </ul>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#contacto">contacto</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+
+                </div>
+            </div>
+            
+            <p class="container mt-3">
+              <b>Acerca de mi</b> <br>
+              Estudiante de tecnicatura en electromecánica con habilidades 
+              aptas para el correcto desempeño de mi vocación y con el afán 
+              por aprender nuevas cosas que me puedan servir como herramienta para mi futuro
+            </p>
+
+            <div id="estudios" class="container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Estudios</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-group-divider">
+                    <tr>
+                      <th scope="row">1</th>
+                      <td><img src="img/logo colegio.png" width="80px"></td>
+                      <td>Escuela Provincial<br> de Educación Técnica Nº8</td>
+                      <td>2017 a 2022</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td><img src="img/Logoargpro.jpg" width="80px"></td>
+                      <td>Argentina programa<br> programador full stack web jr.</td>
+                      <td>2022 a 2023</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+            <div id="proyectos" class="container">
+                <p><b>Proyectos</b></p>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/Alu.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">ALU</h5>
+                        <p class="card-text">ALU o Aritmetic Logic Unit es una unidad encargada del procesamiento aritmetico dentro del procesador</p>
+                        <a href="#" class="btn btn-primary">En desarrollo</a>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/Steno.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Steno Keyboard</h5>
+                          <p class="card-text">Un steno keyboard es un un teclado especializado en la taquigrafia</p>
+                          <a href="#" class="btn btn-primary">En desarrollo</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/Robot.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Robot qoopers</h5>
+                          <p class="card-text">La serie completa de robots qoopers esta especializada tanto para la enseñanza basica e intermedia de la robotica y la programacion</p>
+                          <a href="#" class="btn btn-primary">En desarrollo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+      <footer id="contacto" class="container">
+        <div class="foot">
+          <p>Contacto</p>
+          <p>whatsapp: +54 299-610-4934</p>
+          <p>email: f.marcelferna@gmail.com</p>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+
+</html>
